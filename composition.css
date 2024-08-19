@@ -469,7 +469,7 @@ audio {
 
 @media(max-width:920px)
 {
-  .ableton {display: none;}
+  .james-logos {display: none;}
   .landing-left {width: 100%; max-width: 1300px;}
   .landing {padding-bottom: 8%;}
 
