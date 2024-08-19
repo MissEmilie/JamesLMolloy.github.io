@@ -113,9 +113,10 @@ main {  overflow: hidden;}
 }
 .landing-left {
   width: 60%;
-  max-width: 800px;
+  max-width: 645px;
   margin-right: 5%;
-  margin-top: -65px;
+  margin-top: -35px;
+  text-align: justify;
 }
 .landing-left > h2 {margin-top: -40px;}
 .landing-left > p {margin-bottom: 20px}
@@ -226,6 +227,7 @@ form{
   width: 90%;
   margin: auto;
   max-width: 1300px;
+  text-align: justify;
 }
 #send-button:hover{
   color: #201e48;
@@ -236,7 +238,7 @@ form{
 }
 #email-mobile {display: none;}
 .mobile-socials {display: none}
-
+.contact-link {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.1rem;}
 
 footer {
   padding-top: 20px;
@@ -323,7 +325,7 @@ audio {
   align-items: center;
   display: flex;
   user-select: none;
-  max-width: 500px;
+  max-width: 645px;
   width: 100%;
   padding-bottom: 5%;
 }
@@ -469,7 +471,7 @@ audio {
 
 @media(max-width:920px)
 {
-  .james-logos {display: none;}
+  .logos-james {display: none;}
   .landing-left {width: 100%; max-width: 1300px;}
   .landing {padding-bottom: 8%;}
 
@@ -481,6 +483,7 @@ audio {
 {
   .player {width: 350px;}
   .player .imgbx {height: 350px;}
+  h2 {text-align: left;}
   
   #desktop-work {display: block; width: 80%; margin: auto;}
 }
